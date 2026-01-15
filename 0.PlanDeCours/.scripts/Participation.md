@@ -1,4 +1,4 @@
-# Participation au 15-01-2026 16:47
+# Participation au 15-01-2026 16:51
 
 | Table des matières            | Description                                             |
 |-------------------------------|---------------------------------------------------------|
@@ -16,7 +16,7 @@
 
 |:hash:| Boréal :id:                | README.md    | images |
 |------|----------------------------|--------------|--------|
-| 0 | [300141550](../300141550/README.md) :point_right: [emeraudesantu](https://github.com/emeraudesantu) <image src='https://avatars0.githubusercontent.com/u/211749528?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
+| 0 | [300141550](../300141550/README.md) :point_right: [emeraudesantu](https://github.com/emeraudesantu) <image src='https://avatars0.githubusercontent.com/u/211749528?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :heavy_check_mark: |
 | 1 | [300141567](../300141567/README.md) :point_right: [arsprod2001](https://github.com/arsprod2001) <image src='https://avatars0.githubusercontent.com/u/169725025?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 2 | [300146667](../300146667/README.md) :point_right: [djaberbenyezza](https://github.com/djaberbenyezza) <image src='https://avatars0.githubusercontent.com/u/205994773?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 3 | [300148210](../300148210/README.md) :point_right: [zianiferiel](https://github.com/zianiferiel) <image src='https://avatars0.githubusercontent.com/u/233097107?s=460&v=4' width=20 height=20></image> | :x: | :x: |
@@ -34,4 +34,4 @@
 | 15 | [300153476](../300153476/README.md) :point_right: [dialloramatoulayebah](https://github.com/dialloramatoulayebah) <image src='https://avatars0.githubusercontent.com/u/129418622?s=460&v=4' width=20 height=20></image> | :heavy_check_mark: | :x: |
 | 16 | [300153747](../300153747/README.md) :point_right: [madjou15](https://github.com/madjou15) <image src='https://avatars0.githubusercontent.com/u/211754108?s=460&v=4' width=20 height=20></image> | :x: | :x: |
 | 17 | [300154718](../300154718/README.md) :point_right: [octocat](https://github.com/octocat) <image src='https://avatars0.githubusercontent.com/u/583231?s=460&v=4' width=20 height=20></image> | :x: | :x: |
-| :abacus: | $\frac{0}{18}$ = 0% | $\displaystyle\sum_{i=1}^{18} s_i$ = 0 |
+| :abacus: | $\frac{1}{18}$ = 5% | $\displaystyle\sum_{i=1}^{18} s_i$ = 1 |
