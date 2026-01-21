@@ -1,4 +1,4 @@
-\# INF1099 - Création du dépôt personnel
+# INF1099 - Création du dépôt personnel
 
 
 
@@ -12,9 +12,14 @@ Algérien, passionné de pop culture, football et nourriture!
 
 
 
-\## Mon image
 
 
 
+<<<<<<< HEAD
 !\[Mon images](images/images.jpg)
+=======
+![Mon image](images/images.jpg)
+
+
+>>>>>>> e45d3260047fa789b41653bdb9253295beba3249
 
