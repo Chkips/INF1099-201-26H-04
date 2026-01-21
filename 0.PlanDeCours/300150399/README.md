@@ -16,7 +16,5 @@ Algérien, passionné de pop culture, football et nourriture!
 
 
 
-!\[Samurai](images/SamuraiWP.jpg)
-
-
+!\[Mon images](images/images.jpg)
 
