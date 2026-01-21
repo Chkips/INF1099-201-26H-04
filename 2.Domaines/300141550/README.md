@@ -21,8 +21,8 @@ Chaque commande est suivie à travers différents statuts (en préparation, pay�
 
 Mama Makusa s’adresse principalement à la communauté africaine de Toronto ainsi qu’à toute personne souhaitant découvrir la richesse de la gastronomie africaine.
 
+```mermaid
 erDiagram
-
     CLIENT ||--o{ COMMANDE : PASSE
     CLIENT ||--|{ ADRESSE : POSSEDE
     ADRESSE ||--o{ COMMANDE : LIVRAISON_A
@@ -36,7 +36,6 @@ erDiagram
     COMMANDE ||--|| PAIEMENT : EST_PAYEE_PAR
     COMMANDE o|--|| LIVRAISON : DONNE_LIEU_A
     LIVREUR ||--|{ LIVRAISON : EFFECTUE
-
 
     CLIENT {
         string nom
@@ -100,4 +99,4 @@ erDiagram
         string telephone
         string email
     }
-
+```
