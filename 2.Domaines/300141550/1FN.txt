@@ -6,6 +6,7 @@ Entites
 - Catégorie
 - Pays_Origine
 - Commande 
+- Ligne_Commande
 - Paiment
 - Livraison 
 - Livreur
