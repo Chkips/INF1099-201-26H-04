@@ -4,7 +4,7 @@
 
 À la fin de ce TP, l’étudiant sera capable de :
 
-1. Installer **Podman** et configurer un alias **Docker** sur Windows
+1. Installer [**Podman**](1.Podman) et configurer un alias **Docker** sur Windows
 2. Lancer un conteneur **MySQL**
 3. Créer une base de données et un utilisateur
 4. Importer la base de données **Sakila** pour pratiquer SQL
