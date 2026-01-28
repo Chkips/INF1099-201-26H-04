@@ -187,10 +187,14 @@ docker exec -it INF1099-mysql mysql -u root -prootpass -e "CREATE DATABASE sakil
 docker exec -it INF1099-mysql mysql -u root -prootpass -e "GRANT ALL PRIVILEGES ON *.* TO 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1' WITH GRANT OPTION;"
 
 # Importer le schéma et les données
-docker exec -i INF1099-mysql mysql -u etudiants -petudiants_1 sakila < "$projectDir\sakila-db\sakila-schema.sql"
-docker exec -i INF1099-mysql mysql -u etudiants -petudiants_1 sakila < "$projectDir\sakila-db\sakila-data.sql"
+```powershell
+Get-Content "$projectDir\sakila-db\sakila-schema.sql" |
+  docker exec -i INF1099-mysql mysql -u etudiants -petudiants_1 sakila
 ```
-
+```powershell
+Get-Content "$projectDir\sakila-db\sakila-data.sql" |
+  docker exec -i INF1099-mysql mysql -u etudiants -petudiants_1 sakila
+```
 Exécuter :
 
 ```powershell
