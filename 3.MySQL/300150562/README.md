@@ -10,4 +10,10 @@
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 irm get.scoop.sh | iex
+## installer Podman
+scoop install podman
+## installer mysql
+scoop install mysql
+
+
 
