@@ -1,7 +1,7 @@
 # TP INF1099 - Installation Podman + MySQL
 
 ## Étudiant
-- Nom: [Votre Nom]
+- Nom: corneil ekofo
 - Numéro: 300150562
 
 ## Installation complète
@@ -10,3 +10,4 @@
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
 irm get.scoop.sh | iex
+
