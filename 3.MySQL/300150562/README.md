@@ -15,5 +15,9 @@ scoop install podman
 ## installer mysql
 scoop install mysql
 
+<img width="587" height="204" alt="image" src="https://github.com/user-attachments/assets/9b102dae-d6ef-47a9-967f-5bf0c6bc6741" />
+
+
+
 
 
