@@ -117,7 +117,12 @@ docker exec -it INF1099-mysql mysql -u root -p -e "SHOW DATABASES;"
 
 ```powershell
 docker exec -it INF1099-mysql `
-  mysql -u root -p -e "GRANT ALL PRIVILEGES ON *.* TO 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1' WITH GRANT OPTION;"
+     mysql -u root -prootpass -e "CREATE USER 'etudiants'@'localhost' IDENTIFIED BY 'etudiants_1';"
+```
+
+```powershell
+docker exec -it INF1099-mysql `
+  mysql -u root -prootpass -e "GRANT ALL PRIVILEGES ON *.* TO 'etudiants'@'localhost' WITH GRANT OPTION;"
 ```
 
 * Mot de passe : `etudiants_1`
