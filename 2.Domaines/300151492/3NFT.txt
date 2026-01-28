@@ -1,1 +1,27 @@
 
+┌────────────────────────────────────────────────────────────────────────────┐
+│ 3FN - TROISIÈME FORME NORMALE (17 fichiers)                                │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ OBJECTIF : Créer le schéma final de base de données SQL                    │
+│                                                                             │
+│ CONTENU :                                                                   │
+│ • Schéma complet de chaque table (9 tables)                                │
+│ • Clés primaires (PK) et clés étrangères (FK)                              │
+│ • Contraintes d'intégrité (UNIQUE, CHECK, NOT NULL)                        │
+│ • Stratégie d'indexation                                                    │
+│ • Scripts SQL complets                                                      │
+│ • Requêtes courantes                                                        │
+│                                                                             │
+│ EXEMPLE DE FICHIER :                                                        │
+│ 01_TABLE_PATIENT.txt contient :                                             │
+│   - CREATE TABLE Patient avec tous les champs                              │
+│   - IdPatient INT PRIMARY KEY AUTO_INCREMENT                               │
+│   - Tous les attributs avec types SQL précis                               │
+│   - Contraintes : UNIQUE(Email), CHECK(Statut IN (...))                    │
+│   - Index pour optimisation                                                 │
+│   - Exemples d'INSERT                                                       │
+│                                                                             │
+│ MOTS-CLÉS : PK, FK, SQL, contraintes, index, performance                   │
+│                                                                             │
+└────────────────────────────────────────────────────────────────────────────┘
