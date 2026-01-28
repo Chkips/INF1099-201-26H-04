@@ -1,1 +1,25 @@
 
+┌────────────────────────────────────────────────────────────────────────────┐
+│ 2FN - DEUXIÈME FORME NORMALE (20 fichiers)                                 │
+├────────────────────────────────────────────────────────────────────────────┤
+│                                                                             │
+│ OBJECTIF : Séparer les entités et définir les relations                    │
+│                                                                             │
+│ CONTENU :                                                                   │
+│ • Description de chaque entité isolée (9 entités)                          │
+│ • Relations entre entités avec cardinalités (9 relations)                  │
+│ • Explication des cardinalités (0,1), (0,N), (1,1), (1,N)                  │
+│ • Schémas visuels des relations                                             │
+│ • Exemples de données dans chaque entité                                    │
+│                                                                             │
+│ EXEMPLE DE FICHIER :                                                        │
+│ 10_RELATION_PATIENT_RDV.txt contient :                                      │
+│   - Type de relation : PATIENT (0,N) --- PREND --- (1,1) RENDEZ_VOUS      │
+│   - Signification de (0,N) : un patient peut avoir 0 ou plusieurs RDV     │
+│   - Signification de (1,1) : un RDV concerne exactement 1 patient         │
+│   - Exemples concrets                                                       │
+│   - Règles métier                                                           │
+│                                                                             │
+│ MOTS-CLÉS : entités, relations, cardinalités, associations                 │
+│                                                                             │
+└────────────────────────────────────────────────────────────────────────────
