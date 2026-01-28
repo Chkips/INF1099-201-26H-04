@@ -80,6 +80,9 @@ Les détails sont décrits dans le fichier **3FN.txt**.
 ## Diagramme Entité / Relation (E/R)
 
 ![diagramme2](https://github.com/user-attachments/assets/e839e507-7f84-4a27-8624-30abd7016f81)
+
+----------------
+
 <img width="739" height="528" alt="diagramme1" src="https://github.com/user-attachments/assets/66f8f224-0f75-48f8-b4b9-434fe7d5063f" />
 
 
@@ -97,3 +100,4 @@ bien structurée, cohérente et adaptée à une application e-commerce.
 
 Ce travail permet de mieux comprendre l’importance de la normalisation
 dans la conception des bases de données relationnelles.
+
