@@ -201,3 +201,8 @@ Exécuter :
 * MySQL en conteneur
 * Base Sakila importée
 
+# :books: References
+
+```powershell
+choco install mysql.workbench
+```
