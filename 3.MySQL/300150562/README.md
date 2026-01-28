@@ -15,8 +15,8 @@ scoop install podman
 ## installer mysql
 scoop install mysql
 
-## Captures d'écran
-Screenshot_mysql
+
+
 
 
 
