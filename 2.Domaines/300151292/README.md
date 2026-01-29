@@ -31,10 +31,10 @@ de réservation.
 
 
 \### Schéma conceptuel (ERD)
+<img width="1128" height="893" alt="schema_borealfit" src="https://github.com/user-attachments/assets/2d4358c1-2dc1-44dd-ac9b-fe1d60d58a44" />
 
 
 
-!\[Schéma BorealFit](images/schema\_borealfit.png)
 
 
 
