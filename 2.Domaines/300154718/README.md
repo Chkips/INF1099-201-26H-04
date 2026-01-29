@@ -16,3 +16,4 @@ Le système permet de :
 Chaque vol appartient à une compagnie, utilise un avion, et est lié à une porte dans un aéroport.
 
 ### Schéma conceptuel (ERD)
+![WhatsApp Image 2026-01-29 at 2 14 11 PM](https://github.com/user-attachments/assets/fa27bb1c-34f4-4545-b9ff-fb6db841e60b)
