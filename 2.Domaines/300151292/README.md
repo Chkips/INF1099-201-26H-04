@@ -24,5 +24,17 @@ Le site permet aux utilisateurs de :
 
 
 
-Chaque réservation est suivie à travers différents statuts (confirmée, annulée, terminée), garantissant un bon suivi du processus de réservation.
+Chaque réservation est suivie à travers différents statuts (confirmée, annulée, terminée), garantissant un bon suivi du processus
+
+de réservation.
+
+
+
+\### Schéma conceptuel (ERD)
+
+
+
+!\[Schéma BorealFit](images/schema\_borealfit.png)
+
+
 
