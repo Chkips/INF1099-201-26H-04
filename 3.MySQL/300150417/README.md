@@ -34,13 +34,13 @@ L’ensemble du processus est automatisable et reproductible.
 
 Création du dossier INF1099 dans le répertoire Downloads afin de centraliser les fichiers du TP.
 
-![creation_de_chemin](./images/1.png) 
+![creation_de_chemin](./images/1.PNG) 
 
 🟢 Étape 2 – Initialisation de Podman
 
 Initialisation et démarrage de la machine virtuelle Podman pour permettre l’exécution des conteneurs Docker.
 
-![podman](./images/intilitation_podman_3.png) 
+![podman](./images/intilitation_podman_3.PNG) 
 
 🟢 Étape 3 – Lancement du conteneur MySQL
 
@@ -50,7 +50,7 @@ Lancement du conteneur MySQL avec un mot de passe root et l’exposition du port
 docker run -d --name INF1099-mysql -e MYSQL_ROOT_PASSWORD=rootpass -p 3306:3306 mysql:8.0
 ```
 
-![my_sql](./images/lancage_conteneur_my_sql_4.png) 
+![my_sql](./images/lancage_conteneur_my_sql_4.PNG) 
 
 🟢 Étape 4 – Création de la base de données Sakila
 
