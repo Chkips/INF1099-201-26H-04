@@ -63,14 +63,14 @@ Vérification :
 ```powershell
 docker exec -it INF1099-mysql mysql -u root -p -e "SHOW DATABASES;"
 ```
-![sakila_creation](./images/creeation_base_sakila_5.png) 
+![sakila_creation](./images/creeation_base_sakila_5.PNG) 
 
 🟢 Étape 5 – Création de l’utilisateur etudiants
 
 Création de l’utilisateur etudiants afin de permettre un accès applicatif à la base de données Sakila.
 
 
-![etudiant](./images/utilisaateur_etudiant.png) 
+![etudiant](./images/utilisaateur_etudiant.PNG) 
 
 🟢 Étape 6 – Importation du schéma Sakila
 
@@ -100,4 +100,4 @@ docker exec -it INF1099-mysql mysql -u etudiants -petudiants_1 -e "USE sakila; S
 
 Les tables principales (actor, film, customer, rental, inventory, etc.) sont bien présentes.
 
-![imprtage](./images/importage_sakila_7.png) 
+![imprtage](./images/importage_sakila_7.PNG) 
