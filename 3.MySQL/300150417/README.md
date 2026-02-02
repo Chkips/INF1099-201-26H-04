@@ -70,7 +70,7 @@ docker exec -it INF1099-mysql mysql -u root -p -e "SHOW DATABASES;"
 Création de l’utilisateur etudiants afin de permettre un accès applicatif à la base de données Sakila.
 
 
-![etudiant](./images/utilisaateur_etudiant.PNG) 
+![etudiant](./images/utilsaateur_etudiant.PNG) 
 
 🟢 Étape 6 – Importation du schéma Sakila
 
