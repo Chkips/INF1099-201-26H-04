@@ -28,3 +28,8 @@ Transit international simplifié
 Plateforme sécurisée et facile à utiliser
 
 Adaptée aux échanges Canada – Afrique de l’Ouest
+
+<img width="5398" height="8191" alt="mermaid-ai-diagram-2026-02-03-000442" src="https://github.com/user-attachments/assets/f2f23864-536c-43a4-9bfd-1cdc9fe10082" />
+
+
+
