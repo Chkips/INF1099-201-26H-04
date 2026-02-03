@@ -26,10 +26,10 @@ jobs:
           bash .scripts/run.sh
           cd ..
           ##
-          ## Evaluating chapter 2.IDE
+          ## Evaluating chapter 1.Domaines
           ## 
-          echo "Evaluating chapter 0.PlanDeCours Participation"
-          cd 2.Domaines
+          echo "Evaluating chapter 1.Domaines Participation"
+          cd 1.Domaines
           bash .scripts/run.sh
           cd ..
 
