@@ -193,7 +193,7 @@ git pull --no-edit
 
 - [ ] avec le nom de répertoire :id: (votre identifiant boreal)
 - [ ] dans votre répertoire ajouter le fichier `README.md`
-  - [ ] `nano `README.md
+  - [ ] `nano `:id:/README.md
 - [ ] envoyer vers le serveur `git`
   - [ ] `git add `:id:/README.md
   - [ ] `git commit -m "mon fichier ..."` :id:/README.md
