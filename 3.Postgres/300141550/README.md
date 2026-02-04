@@ -1,4 +1,12 @@
-mon fichier 
+
+Invoke-WebRequest `
+  https://raw.githubusercontent.com/jOOQ/sakila/master/postgres-sakila-db/postgres-sakila-schema.sql `
+  -OutFile postgres-sakila-schema.sql
+
+Invoke-WebRequest `
+  https://raw.githubusercontent.com/jOOQ/sakila/master/postgres-sakila-db/postgres-sakila-insert-data.sql `
+  -OutFile postgres-sakila-insert-data.sql
+
 
 <img width="945" height="482" alt="image" src="https://github.com/user-attachments/assets/df792af6-75e3-4e3b-8dcf-1ddf9f7b1b80" />
 
