@@ -139,5 +139,110 @@ SELECT title FROM film WHERE title ILIKE '%Star%';
 SELECT COUNT(*) FROM actor;
 ```
 
+---
+
+Parfait ! Voici un **guide pratique des commandes de base PostgreSQL (`psql`)**, très utile pour les étudiants et pour naviguer dans les bases comme Sakila.
+
+---
+
+# Commandes de base `psql`
+
+> Ces commandes commencent par **`\`** et ne sont pas du SQL standard : elles servent à interagir avec PostgreSQL dans le client `psql`.
+
+---
+
+## 1️⃣ Informations sur les tables
+
+| Commande        | Description                                              |
+| --------------- | -------------------------------------------------------- |
+| `\dt`           | Liste toutes les tables dans la base de données courante |
+| `\dt schema.*`  | Liste toutes les tables d’un schéma spécifique           |
+| `\d table_name` | Affiche la structure (colonnes, types, clés) d’une table |
+
+**Exemple :**
+
+```sql
+\dt
+\d film
+```
+
+---
+
+## 2️⃣ Informations sur les fonctions et procédures
+
+| Commande            | Description                                                   |
+| ------------------- | ------------------------------------------------------------- |
+| `\df`               | Liste toutes les fonctions                                    |
+| `\df+`              | Liste les fonctions avec détails (retour, propriétaire, etc.) |
+| `\df function_name` | Détails d’une fonction spécifique                             |
+| `\dp`               | Liste les privilèges (droits) sur tables, vues et séquences   |
+| `\du`               | Liste les rôles/utilisateurs PostgreSQL                       |
+
+**Exemple :**
+
+```sql
+\df
+\df add_numbers_fn
+\dp
+\du
+```
+
+---
+
+## 3️⃣ Connexion et bases
+
+| Commande    | Description                        |
+| ----------- | ---------------------------------- |
+| `\c dbname` | Se connecter à une base de données |
+| `\l`        | Liste toutes les bases de données  |
+| `\conninfo` | Affiche la connexion actuelle      |
+
+**Exemple :**
+
+```sql
+\c appdb
+\conninfo
+\l
+```
+
+---
+
+## 4️⃣ Informations sur les schémas et séquences
+
+| Commande          | Description                                     |
+| ----------------- | ----------------------------------------------- |
+| `\dn`             | Liste tous les schémas                          |
+| `\d schema.table` | Affiche la structure d’une table dans un schéma |
+| `\ds`             | Liste les séquences                             |
+| `\dv`             | Liste les vues                                  |
+
+---
+
+## 5️⃣ Commandes pratiques supplémentaires
+
+| Commande     | Description                                                        |
+| ------------ | ------------------------------------------------------------------ |
+| `\x`         | Active/désactive le mode étendu (affichage vertical des résultats) |
+| `\q`         | Quitter `psql`                                                     |
+| `\! command` | Exécute une commande shell depuis `psql`                           |
+
+**Exemple :**
+
+```sql
+\x
+SELECT * FROM film WHERE title ILIKE '%star%';
+\q
+```
+
+---
+
+💡 **Astuce pour étudiants :**
+
+* Les commandes `\dt`, `\df`, `\dp`, `\du` sont vos **outils principaux pour explorer la base** sans connaître toutes les tables ou fonctions par cœur.
+* `\d table_name` + `\df function_name` permet de comprendre rapidement la structure avant d’écrire des requêtes.
+
+---
+
+# :books: References
 
 
