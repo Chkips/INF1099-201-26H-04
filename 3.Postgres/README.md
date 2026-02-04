@@ -64,10 +64,25 @@ docker logs postgres
 
 ### Étape 1 : Télécharger les fichiers PostgreSQL Sakila
 
+- [ ] 🐧 Linux
+
 ```bash
 wget https://raw.githubusercontent.com/jOOQ/sakila/master/postgres-sakila-db/postgres-sakila-schema.sql
 wget https://raw.githubusercontent.com/jOOQ/sakila/master/postgres-sakila-db/postgres-sakila-insert-data.sql
 ```
+
+- [ ] 🪟 Windows
+
+```bash
+Invoke-WebRequest `
+  https://raw.githubusercontent.com/jOOQ/sakila/master/postgres-sakila-db/postgres-sakila-schema.sql `
+  -OutFile postgres-sakila-schema.sql
+
+Invoke-WebRequest `
+  https://raw.githubusercontent.com/jOOQ/sakila/master/postgres-sakila-db/postgres-sakila-insert-data.sql `
+  -OutFile postgres-sakila-insert-data.sql
+```
+
 
 ### Étape 2 : Copier les fichiers dans le conteneur
 
@@ -84,6 +99,10 @@ docker exec -it postgres psql -U postgres -d appdb -f /data.sql
 ```
 
 ### Étape 4 : Vérifier que les tables Sakila sont présentes
+
+```bash
+docker exec -it postgres psql -U postgres -d appdb
+```
 
 ```sql
 \dt
