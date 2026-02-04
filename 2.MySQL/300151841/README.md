@@ -1,8 +1,7 @@
-📄 README.md — TP INF1099
+ TP INF1099
 Manipulation de données avec MySQL et Podman sur Windows
 👤 Étudiant
-•	Nom : Massi
-•	Cours : INF1099
+•	Nom : Massinissa mameri
 •	Environnement : Windows 10/11 – PowerShell – Podman – MySQL 8.0
 ________________________________________
 🎯 Objectif du TP
@@ -113,3 +112,4 @@ Capture 6 -connexion sur workbench
 
 
  
+
