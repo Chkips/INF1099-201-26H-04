@@ -23,3 +23,7 @@ Voir : `3FN.txt`
 
 ##  Diagramme Entité-Relation
 Voir : `diagramme_ER.md`
+
+## Diagramme E/R
+![Diagramme ER](./Image/Diagramme.png)
+
