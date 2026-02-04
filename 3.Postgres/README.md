@@ -1,8 +1,4 @@
-Parfait ! Voici une **leçon complète prête pour étudiants** sur PostgreSQL avec Docker, Sakila et pgAdmin 4. Je vais structurer ça comme un **guide pas à pas**, clair et didactique.
-
----
-
-# Leçon : PostgreSQL avec Docker, Sakila et pgAdmin 4
+# PostgreSQL DB 🧻 
 
 ## Objectifs
 
