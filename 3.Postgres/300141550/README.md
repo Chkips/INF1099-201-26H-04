@@ -20,3 +20,8 @@ podman exec -it postgres psql -U postgres -d appdb
 Exploration de la base Sakila
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f55cf870-2e68-4d95-b0da-582d354b8c69" />
 
+Exercice 1 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d5a1cde6-94b8-4a68-b278-a457d712a60b" />
+
+Exercice 2
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e06687d6-28f7-4083-b037-612438d04a3d" />
