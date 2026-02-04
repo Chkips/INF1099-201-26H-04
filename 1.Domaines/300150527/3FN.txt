@@ -1,48 +1,9 @@
-3ème Forme Normale (3NF)
+Client (id_client, nom_client, telephone, adresse)
 
-Passage de la 2NF à la 3NF :
+Produit (id_produit, nom_produit, prix, image, description, categorie, stock)
 
-Nous avons supprimé les dépendances transitives.
+Commande (id_commande, id_client, date_commande)
 
-CLIENT (
-  id_client,
-  nom_client,
-  telephone,
-  adresse
-)
+Detail_Commande (id_detail, id_commande, id_produit, quantite, prix_unitaire)
 
-PRODUIT (
-  id_produit,
-  nom_produit,
-  prix,
-  image,
-  description,
-  categorie,
-  stock
-)
-
-COMMANDE (
-  id_commande,
-  id_client,
-  date_commande
-)
-
-DETAIL_COMMANDE (
-  id_detail,
-  id_commande,
-  id_produit,
-  quantite,
-  prix_unitaire
-)
-
-PAIEMENT (
-  id_paiement,
-  id_commande,
-  mode_paiement,
-  montant,
-  statut
-)
-
-Résultat :
-- Aucune dépendance transitive
-- Base de données optimisée
+Paiement (id_paiement, id_commande, mode_paiement, montant, statut)
